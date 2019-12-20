@@ -1,8 +1,6 @@
 import React from 'react'
 import ToDoList from './ToDoList';
 import ToDoInput from './ToDoInput';
-import { BrowserRouter, Route } from "react-router-dom"
-
 
 class ToDoApp extends React.Component {
     constructor() {
@@ -31,14 +29,14 @@ class ToDoApp extends React.Component {
 
     tododeleted = (text) => {
         const { todos } = this.state;
-        const data = todos.filter(item => item.text != text)
+        const data = todos.filter(item => item.text !== text)
         this.setState({ todos: data})
     }
 
     render() {
         return (
             <div>
-                <div>
+                <div>                            
                     <ToDoInput onAdd={this.todoadded} />
                 </div>
                 <div>

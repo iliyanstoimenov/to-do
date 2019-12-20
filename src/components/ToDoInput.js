@@ -1,7 +1,4 @@
 import React from 'react'
-import 'antd/dist/antd.css'
-import './ToDoApp.css'
-import './ToDoList.js'
 import { Form, Input, Button, Col, Row } from 'antd';
 
 class ToDoInput extends React.Component {
