@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.Input {
+  background-color:white;
+  padding: 15px 25px;
+  width: 50%;
+  font-weight: bold;
+  box-shadow: 2px 3px 4px 4px #b6b5b5;
+  position: relative;
+  left:25%;
+  bottom: 50px;
+}

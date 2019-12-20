@@ -1,0 +1,46 @@
+.ant-btn {
+    background-color:darkcyan;
+    position: relative;
+    width: 100%;
+    color: white;
+  }
+
+  .header {
+    background-color:darkcyan;
+    height: 300px;
+    width: 100%;
+  }
+
+  .todo-list {
+    background-color:white;
+    font-size: 15px;
+    padding: 15px 25px;
+    width: 50%;
+    font-weight: bold;
+    box-shadow: 2px 3px 4px 4px #b6b5b5;
+    left:25%;
+    bottom: 50px;
+    position: relative;
+    top: 50px;
+    margin-top: 15px;
+  }
+
+  .todo-list p {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .delete-button {
+    position: absolute; 
+    width: 100px;
+    right: 15px;
+    border-color: darkcyan;
+  }
+
+  .edit-button {
+    background-color:lightblue;
+    position: absolute; 
+    width: 100px;
+    right: 130px;
+    border-color: lightblue;
+  }
